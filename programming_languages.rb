@@ -6,7 +6,6 @@ def reformat_languages(languages)
     info.each do |name, data|
       new_hash[name] = data
       new_hash[name].include?(:style) ? new_hash[name][:style] << styles : new_hash[name][:style] = styles
-      end
     end
   end
 end
