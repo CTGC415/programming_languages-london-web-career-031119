@@ -10,8 +10,3 @@ def reformat_languages(languages)
   end
   new_hash
 end
-
-#data.each do |key, type|
-#  new_hash[name] = { key => type, :style => [] }
-#  new_hash[name][:style] << styles
-#end
